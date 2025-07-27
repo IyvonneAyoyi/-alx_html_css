@@ -329,3 +329,79 @@ header {
   height: 16px;
 }
 
+
+/*Free Membership*/
+
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.membership-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+.membership-card {
+  max-width: 250px;
+  padding: 20px;
+}
+
+.membership-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.membership-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 10px;
+
+  /* Indent*/
+  text-indent: -10px;
+  padding-left: 10px;
+
+  /* Break line after comma */
+  white-space: pre-line;
+}
+
+
+/* CTA button */
+.membership-btn {
+  background-color: #c271ff;
+  color: white;
+  font-weight: 700;
+  padding: 12px 30px;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.membership-btn:hover {
+  background-color: #a349dc;
+}
+
+
+
