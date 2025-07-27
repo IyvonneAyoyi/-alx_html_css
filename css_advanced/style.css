@@ -219,3 +219,113 @@ header {
   line-height: 33.6px;
   margin-bottom: 16px;
 }
+
+/*Styling the most popular tutorials section*/
+/*Section styling*/
+.popular {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.popular-title {
+  text-align: center;
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Style tutorial*/
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.tutorial-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: left;
+}
+
+/* Thumbnail image with play icon overlay */
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img:first-child {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Title and description */
+.tutorial-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  color:#07162980;
+  line-height: 24px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+/* Styling Tutor info */
+.tutor-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.tutor-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.tutor-info h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c271ff;
+}
+
+/* Rating and time */
+.rating-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-time p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rating-stars {
+  height: 16px;
+}
+
