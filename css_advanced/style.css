@@ -13,8 +13,6 @@
 }
 
 
-
-
 /*Hero Section*/
 .hero {
     position: relative;
@@ -386,7 +384,7 @@ header {
 }
 
 
-/* CTA button */
+/* Call To Action button */
 .membership-btn {
   background-color: #c271ff;
   color: white;
@@ -403,5 +401,45 @@ header {
   background-color: #a349dc;
 }
 
+.faq {
+  background-color: white;
+  color: #071629;
+  padding: 60px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-column {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
