@@ -161,3 +161,61 @@ header {
   font-weight: 400;
   line-height: 24px;
 }
+
+/*Testimonials Section*/
+
+.testimonial {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0px; 
+  background-color: #c271ff;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 0 100px;
+  margin-left: 165px;
+}
+
+.testimonial-img img {
+  width: 160px;
+  max-width: 100%;
+  border-radius: 10px;
+  
+}
+
+.testimonial-text {
+  max-width: 750px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial-text blockquote{
+       font-weight: 400;
+       font-size: 22px;
+       line-height: 33.6px;
+       margin-bottom: 16px;
+       white-space: normal;
+       word-break: keep-all;
+}
+.testimonial-text p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33.6px;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.testimonial-text h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33.6px;
+  margin-bottom: 16px;
+}
